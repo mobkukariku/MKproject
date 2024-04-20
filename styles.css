@@ -1,0 +1,297 @@
+
+.Img-container{
+    height: 2921.43px;
+    background-image: url('images/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.main .Img-container .logo-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main .Img-container .logo-main img{
+    width: 20%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.animate-element {
+    opacity: 0; /* Начальное состояние элемента */
+    transition: opacity 1s, transform 1s; /* Плавное исчезновение */
+}
+
+.visible {
+    animation: fadeIn 1s forwards;
+}
+
+.invisible {
+    animation: fadeOut 1s forwards;
+}
+
+
+.main .Img-container .logo-main p{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 25%;
+    color: aliceblue;
+}
+.main .Img-container .Info-block{
+    width: 60%;
+    margin: 0 20%;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    opacity: 0; /* Начальное состояние элемента */
+    transition: opacity s, transform 1s; /* Плавное исчезновение */
+}
+.main .Img-container .Info-block .Info-Title p{
+    padding: 2%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+}
+
+.main .Img-container .Info-block .Info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main .Img-container .Info-block .Info-text p{
+    text-align: center;
+    padding: 2%;
+    font-family: "Josefin Sans", sans-serif;
+    align-self: center;
+    font-size: 22px;
+}
+.main .Img-container .Info-block .Info-text img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.main .Img-container .Tours-img{
+    margin-top: 10%;
+    padding-top: 12%;
+    background-image: url(images/Vector2.svg);
+    height: 2722.42px;
+}
+
+
+.main .Img-container .Tours-img .Tours-Title p{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.Tours-blocks{
+    margin-top: 7%;
+    
+    width: 40%;
+}
+.Tours-blocks .Tours-block{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(32, 43, 61, 1);
+    border-radius: 30px;
+}
+
+
+
+.Tours-blocks .Tours-block .Tours-block-content{
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display:grid;
+    place-items: center;
+
+
+}
+
+
+.Tours-blocks .Tours-block .Tours-block-content p{
+    color: aliceblue;
+    text-align: center;
+}
+.Tour-block-title{
+    font-size: 30px;
+    margin-top: 10%;
+}
+.Tour-block-desc{
+    font-size: 17px;
+}
+
+
+.direction-Info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    height: 10%;
+    justify-content: center;
+    
+}
+.direction-Info .direction-power{
+    width: 33%;
+    background-color: rgba(32, 43, 61, 1);
+}
+.direction-Info p{
+    margin-top: 22%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+.direction-Info .direction-production{
+    width: 33%;
+    background-color: rgba(90, 18, 18, 1);
+}
+
+.direction-Info .direction-promotion{
+    width: 33%;
+    background-color: rgba(28, 90, 18, 1);
+}
+
+
+.Ierarchy{
+    margin-top: 20%;
+    background: rgba(32, 43, 61, 1);
+}
+.Ierarchy img{
+    width: 70%;
+    padding: 2%;
+    margin: 0 15%;
+}
+
+.members-Info .members-Title{
+    margin-top: 7%;
+}
+.members-Info .members-Title p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.members-blocks{
+    margin-top: 4%;
+    margin-bottom: 15%;
+}
+
+.members-blocks .member-block{
+    width: 350px;
+    height: 400px;
+    background:rgb(199, 199, 199);
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.members-blocks .member-block .block-text-place{
+    height: 225px;
+    background: rgba(32, 43, 61, 1);
+    border-radius: 0 0 20px 20px;
+}
+
+.members-inst{
+    width: 10%;
+    margin: 0 30%;
+    
+}
+.members-inst a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.members-inst a p{
+    margin-top: 55%;
+    color: aliceblue;
+}
+
+
+.members-blocks .member-block img{
+    align-self: center;
+    margin: 20% 25% -2% 21%;
+    width: 60%;
+    border-radius: 100px;
+}
+
+.members-blocks .member-block .block-text-place{
+    margin-top: 25%;
+    color: aliceblue;
+}
+.members-blocks .member-block .block-text-place .members-name p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.members-blocks .member-block .block-text-place .members-diraction p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2%;
+
+}
+
+.members-blocks .member-block .block-text-place .members-desc p{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.contacts{
+    background: rgba(32, 43, 61, 1);
+    margin-top: 10%;
+    height: 250px;
+}
+
+.contacts .contacts-title{
+    padding: 1%;
+}
+.contacts .contacts-title p{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.contacts .contacts-requzits p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
